@@ -38,3 +38,8 @@ service vendor.nfc_hal_service /vendor/bin/hw/android.hardware.nfc@1.2-service
     user nfc
     group nfc
     disabled
+
+service mi_thermald /vendor/bin/mi_thermald
+    class core
+    user root
+    group system
