@@ -24,6 +24,7 @@ import android.os.PowerManager;
 
 import org.lineageos.settings.PowerSaveModeChangeReceiver;
 import org.lineageos.settings.dirac.DiracUtils;
+import org.lineageos.settings.thermal.ThermalUtils;
 import org.lineageos.settings.doze.DozeUtils;
 import org.lineageos.settings.utils.RefreshRateUtils;
 
