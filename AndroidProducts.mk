@@ -5,4 +5,10 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/arrow_phoenix.mk
+    $(LOCAL_DIR)/legion_phoenix.mk
+
+COMMON_LUNCH_CHOICES := \
+    legion_phoenix-user \
+    legion_phoenix-userdebug \
+    legion_phoenix-eng
+
